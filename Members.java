@@ -26,7 +26,7 @@ public class Members {
 	
 	private void SetListIdx(String _userNo) {
 		for(int i = 0 ; i <= MemberList.size() - 1; i ++) {			
-			if (MemberList.get(i).getNo() == _userNo){
+			if (MemberList.get(i).getNo().equals(_userNo)){
 				Idx = i;
 			}			
 		}
